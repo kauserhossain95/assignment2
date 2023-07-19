@@ -38,7 +38,7 @@ h2{
 }
 /* header area style */
 .menu-area{
-    padding: 20px 0;
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -91,17 +91,17 @@ nav ul li:hover{
 }
 /* banner area css */
 .banner-area{
-    height: 70vh;
+    background-image: url("./images/Group\ 14.png");
+    background-position: left top;
 }
 .banner-left, .banner-right{
     width: 50%;
 }
-.banner-left{
-    background-image: url("./images/Group\ 14.png");
-}
+
 .banner-content{
     display: flex;
     align-items: center;
+    height: 80vh;
 }
 .banner-right img{
     width: 98%;
@@ -211,18 +211,21 @@ h1{
 .video-content .boxes .box{
     width: 25%;
     padding: 10px;
+    
    
 }
 .video-content .boxes .box img{
     width: 100%;
     border-radius: 15px;
     box-sizing: border-box;
+    
 }
 .video-content .boxes .box p{
     text-align: left;
 }
 .video-content .boxes .box img:hover{
     border: 3px solid #F948B2;
+    
 }
 
 /* play game area css */
@@ -374,7 +377,7 @@ font-weight: bold;
          font-size: 12px;       
          
      }
-     .banner-area{
+     .banner-content{
         height: auto;
      }
      .banner-content{        
@@ -423,16 +426,9 @@ font-weight: bold;
     width: 100%;
     margin: 20px 0;
   }
-  .games-name .boxes{
-    display: flex;
-    flex-wrap: wrap;
 
-  }
-  .games-name .boxes .box{
-    width: 30%;
-    margin: 0;
-    padding: 0;
-  }
+
+  
   .footer-area ul{
     flex-wrap: wrap;
   }
@@ -446,3 +442,6 @@ font-weight: bold;
     padding: 0 10px;
   }
 }
+
+
+
