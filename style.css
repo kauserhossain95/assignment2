@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
     max-width: 1350px;
+    box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
 .container{
@@ -11,7 +12,7 @@ body{
 }
 p{
    color:#a9a2b0;
-   font-size: 14px;
+   font-size: 13px;
 }
 h2{
     font-size: 35px;
@@ -171,6 +172,28 @@ h1{
     background-color: #fff;
     color: #ff42a5 ;
 }
+/* gamer area css */
+.gamer-content{
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+    padding-bottom: 50px;
+    justify-content: space-between;
+}
+.gamer-left {
+    width: 55%;
+}
+.gamer-right{
+    width: 35%;
+}
+.gamer-left img{
+    width: 100%;
+}
+.gamer-right{
+    text-align: right;
+}
+
+
 
 /* video area css */
 .video-content{
@@ -247,17 +270,36 @@ h1{
 .games-name .boxes{
     display: flex;
     justify-content: center;
+    margin: 20px 0;
 }
 .games-name .boxes .box{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 40px;
+    box-sizing: border-box;
+    padding: 0 10px;
+     border: 2px solid transparent;
 }
 .games-name .boxes .box img{
     width: 40px;
     height: 40px;
     margin-right: 10px;
+   
+}
+.gamer-right h4{
+    font-size: 22px;
+    color: #534c64;
+    margin: 0;
+}
+.gamer-p{
+    font-size: 16px;
+     color: #534c64;
+}
+.games-name .boxes .box:hover{
+    border: 2px solid #F948B2;
+    border-radius: 35px;
+    color: #F948B2;
 }
 
 
