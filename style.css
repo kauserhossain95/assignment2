@@ -282,7 +282,8 @@ h1{
     margin: 0 40px;
     box-sizing: border-box;
     padding: 0 10px;
-     border: 2px solid transparent;
+    border: 2px solid transparent;
+    width: 170px;
 }
 .games-name .boxes .box img{
     width: 40px;
@@ -426,6 +427,32 @@ font-weight: bold;
     width: 100%;
     margin: 20px 0;
   }
+
+
+
+
+
+  .games-name .boxes{
+    flex-wrap: wrap;    
+    flex-direction: row;
+    margin: 0;
+}
+.games-name .boxes .box{
+    
+    margin: 0 ;   
+    padding: 0 ;
+    width: 160px;
+    
+}
+.ga
+
+
+
+
+
+
+
+
 
 
   
