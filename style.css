@@ -1,6 +1,6 @@
 /* common css */
 body{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     max-width: 1350px;
     box-sizing: border-box;
@@ -235,6 +235,7 @@ h1{
 .play-content{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .play-left{
     width: 50%;
@@ -411,12 +412,17 @@ font-weight: bold;
     .play-right {
          width: 100%;
         text-align: center;
-        margin-bottom: 30px;
+        margin: 30px auto;
     }
     .play-left {
         width: 100%;
        
    }
+   .play-cont {
+    margin-left: 0;
+    width: 100%;
+  }
+  
    .little-img img {
     width: 185px;
   }
@@ -427,10 +433,6 @@ font-weight: bold;
     width: 100%;
     margin: 20px 0;
   }
-
-
-
-
 
   .games-name .boxes{
     flex-wrap: wrap;    
@@ -444,17 +446,6 @@ font-weight: bold;
     width: 160px;
     
 }
-.ga
-
-
-
-
-
-
-
-
-
-
   
   .footer-area ul{
     flex-wrap: wrap;
@@ -472,14 +463,14 @@ font-weight: bold;
 
 /* tab responsive css */
 @media screen and (max-width:980px) {
-    .play-cont {
-       
-        margin-left: 35%;
-    }
+   
 
     .career-left, .career-right {
        
         margin-right: 39px;
+      }
+      .little-img img {
+        width: 180px;
       }
 }
 
