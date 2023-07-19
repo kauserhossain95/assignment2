@@ -91,7 +91,7 @@ nav ul li:hover{
 }
 /* banner area css */
 .banner-area{
-    height: 80vh;
+    height: 70vh;
 }
 .banner-left, .banner-right{
     width: 50%;
@@ -359,3 +359,90 @@ font-weight: bold;
 }
 
 
+/* responsive design */
+
+@media screen and (max-width: 540px) {
+    .menu-area{
+        flex-direction: column;
+    }
+    nav ul li{
+        
+        padding: 10px 15px;       
+     }
+     nav ul li a{       
+        
+         font-size: 12px;       
+         
+     }
+     .banner-area{
+        height: auto;
+     }
+     .banner-content{        
+        flex-direction: column-reverse;
+    }
+    .banner-left, .banner-right{
+        width: 80%;
+    }
+    .gamer-content{
+        flex-direction: column;
+    }
+    .gamer-content .gamer-left{
+        width: 100%;
+    }
+    .gamer-content .gamer-right{
+        width: 80%;
+        text-align: center;
+    }
+     .boxes{
+        flex-direction: column;
+    }
+    .video-content .boxes .box{
+        width: 100%;
+        
+       
+    }
+    .play-content{
+        flex-direction: column-reverse;
+    }
+    .play-right {
+         width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .play-left {
+        width: 100%;
+       
+   }
+   .little-img img {
+    width: 185px;
+  }
+  .career-content{
+    flex-direction: column;
+  }
+  .career-left, .career-right {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .games-name .boxes{
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  .games-name .boxes .box{
+    width: 30%;
+    margin: 0;
+    padding: 0;
+  }
+  .footer-area ul{
+    flex-wrap: wrap;
+  }
+  .footer-cont{
+    width: 70%;
+    margin: auto;
+  }
+ 
+  .footer-area ul li {
+    
+    padding: 0 10px;
+  }
+}
