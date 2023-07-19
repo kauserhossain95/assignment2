@@ -122,12 +122,30 @@ h1{
     color:  #F948B2; 
     margin: 5px 0;
 }
+/* games name area css */
 
-
+.games-name .boxes{
+    display: flex;
+    justify-content: center;
+}
+.games-name .boxes .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 40px;
+}
+.games-name .boxes .box img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
 
 
 
 /* footer area start */
+.games-name{
+    margin: 80px 20px;
+}
 .footer-area{
     text-align: center;
     margin: auto;
