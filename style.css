@@ -443,5 +443,16 @@ font-weight: bold;
   }
 }
 
+/* tab responsive css */
+@media screen and (max-width:980px) {
+    .play-cont {
+       
+        margin-left: 35%;
+    }
 
+    .career-left, .career-right {
+       
+        margin-right: 39px;
+      }
+}
 
