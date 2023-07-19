@@ -15,6 +15,7 @@ p{
 }
 h2{
     font-size: 35px;
+    margin: 0;
     font-weight: 700; 
     color: linear-gradient(180deg, #F948B2 , #8758F1);
 
@@ -122,6 +123,125 @@ h1{
     color:  #F948B2; 
     margin: 5px 0;
 }
+
+/* career area start */
+.careear-area{
+    background-color: #ff42a5;
+    color: #fff;
+    padding: 50px 0;
+}
+.career-content{
+    display: flex;
+   
+}
+.career-left h2{
+    text-transform: capitalize;
+}
+.career-left p{
+    color: #fff;
+   
+    font-size: 13px;
+    line-height: 1.5;
+}
+.career-left ul{
+    padding: 0;
+}
+.career-left ul li{
+    list-style: none;
+    font-size: 12px;
+    margin: 15px 0;
+}
+.right-ul{
+    text-align: right;
+}
+.list-items{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.career-left, .career-right{
+    width: 50%;
+}
+.career-right img{
+    width: 100%;
+    height: 100%;
+}
+.btn-career{
+    background-color: #fff;
+    color: #ff42a5 ;
+}
+
+/* video area css */
+.video-content{
+    text-align: center;
+    margin: auto;
+}
+.video-content h2 span{
+    color: #F948B2;
+}
+.video-content .boxes{
+    display: flex;
+    margin: 20px 0;
+
+}
+.video-content .boxes .box{
+    width: 25%;
+    padding: 10px;
+   
+}
+.video-content .boxes .box img{
+    width: 100%;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+.video-content .boxes .box p{
+    text-align: left;
+}
+.video-content .boxes .box img:hover{
+    border: 3px solid #F948B2;
+}
+
+/* play game area css */
+.play-game{
+    margin: 120px 0;
+}
+.play-content{
+    display: flex;
+    align-items: center;
+}
+.play-left{
+    width: 50%;
+}
+.play-right{
+    width: 50%;
+}
+.play-left .main-img img{
+    width: 85%;
+}
+.play-left{
+    position: relative;
+}
+.little-img img{
+    width: 220px;
+}
+.play-left .little-img{
+    position: absolute;
+    top:50%;
+    left: 65%;
+}
+
+.play-cont{
+    width: 65%;
+    margin-left: 20%;
+}
+.play-cont h2 span{
+    color: #F948B2;
+}
+
+
+
+
 /* games name area css */
 
 .games-name .boxes{
