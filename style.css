@@ -1,0 +1,181 @@
+/* common css */
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 1350px;
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+p{
+   color:#a9a2b0;
+   font-size: 14px;
+}
+h2{
+    font-size: 35px;
+    font-weight: 700; 
+    color: linear-gradient(180deg, #F948B2 , #8758F1);
+
+
+}
+.btn-primary{
+    background-color: #ff42a5;
+    padding: 15px 28px;
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 10px 10px 0 0;
+}
+.btn-2{
+    background-color: #4ec5f7;
+}
+/* header area style */
+.menu-area{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 50px;
+    height: 30px;
+}
+h4{
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-left: 10px;
+}
+h4 .logo-head{
+    color: #F948B2;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+   list-style: none;
+   padding: 13px 25px;
+   border-radius: 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 14px;
+    color:#a9a2b0;
+    
+}
+.youtube, .tiktok{
+    font-size: 22px;
+    padding: 0 5px;
+}
+.youtube{
+    color: red;
+    
+}
+.tiktok{
+    color: #000;
+    
+}
+nav ul li:hover{
+    background-color: #e7e6e9;
+}
+/* banner area css */
+.banner-area{
+    height: 80vh;
+}
+.banner-left, .banner-right{
+    width: 50%;
+}
+.banner-left{
+    background-image: url("./images/Group\ 14.png");
+}
+.banner-content{
+    display: flex;
+    align-items: center;
+}
+.banner-right img{
+    width: 98%;
+}
+h3{
+    color: #0B0223;
+    font-size: 33px;    
+    font-weight: 600;    
+    text-transform: uppercase; 
+    margin-bottom: 5px;
+}
+h1{
+    
+    
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase; 
+    color:  #F948B2; 
+    margin: 5px 0;
+}
+
+
+
+
+
+/* footer area start */
+.footer-area{
+    text-align: center;
+    margin: auto;
+    background-color: #0b0223;
+    padding: 50px;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo h4{
+    color: #fff;
+}
+
+
+.footer-logo img{
+    width: 50px;
+    height: 30px;
+}
+
+.footer-area ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+.footer-area ul li{
+   list-style: none;
+   padding: 0 20px;
+}
+.footer-area ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+
+}
+.icons li a i{
+    font-size: 30px;
+}
+
+.tf-menu{
+font-weight: bold;
+}
+.footer-area p{
+    font-size: 12px;
+    text-align: center;
+    
+}
+
+
